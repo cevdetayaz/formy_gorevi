@@ -24,7 +24,7 @@ public class FormyTest {
         driver.findElement(By.id("radio-button-2")).click();
         driver.findElement(By.id("checkbox-1")).click();
         driver.findElement(By.cssSelector("option[value='1']")).click();
-        driver.findElement(By.id("datepicker")).sendKeys("26/07/2023");
+        driver.findElement(By.id("datepicker")).sendKeys("07/26/2023");
         driver.findElement(By.linkText("Submit")).click();
 
 
